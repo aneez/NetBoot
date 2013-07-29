@@ -1,0 +1,34 @@
+# Matrix NTP client configuration
+# For NTPD v4.2.6p5
+
+# correct 1+ ms time differences by stepping
+tinker step 0.001
+
+# amount of time (seconds) to wait before taking a step,
+# higher means slower lock, lower means possible timesteps
+# on network jitter. this is experimentally tuned to the
+# largest value still locking within 5 minutes after startup.
+# (the stepout function is also specifies the initial drift
+# measurement, longer periods cause a better initial drift
+# estimation, requiring less compensation afterwards).
+tinker stepout 33
+
+# never panic, always follow the ref clock
+tinker panic 0
+
+# configure server with 8 (min) / 16 (max) second polling
+server 192.168.1.150 iburst minpoll 3 maxpoll 4
+
+# don't provide any time services
+restrict 127.0.0.1
+
+# log everything to syslog
+logconfig +sysall +peerall +clockall +syncall
+#logconfig =syncall +clockall
+
+# enable extra statistics so the sync state can be read from the logs
+statistics loopstats peerstats
+#statsdir /var/log/ntp/
+filegen peerstats file peers type day link enable
+filegen loopstats file loops type day link enable
+

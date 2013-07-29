@@ -1,0 +1,5 @@
+var/cache/apt
+var/cache/debconf
+var/lib/apt
+var/lib/dpkg
+

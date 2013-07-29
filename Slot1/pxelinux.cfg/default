@@ -1,0 +1,7 @@
+default UBUNTU-pbb
+
+label UBUNTU-pbb
+KERNEL vmlinuz
+APPEND INITRD boot=live live-config fetch=tftp://192.168.2.10/PBB/1/image.squashfs quickreboot ip=frommedia
+INITRD initramfs
+

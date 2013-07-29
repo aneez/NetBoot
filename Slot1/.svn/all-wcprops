@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/PBB/!svn/ver/43/projects/NetworkBoot/trunk/Slot1
+END
+vmlinuz
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/Slot1/vmlinuz
+END
+bootloader
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/Slot1/bootloader
+END

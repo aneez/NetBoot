@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/PBB/!svn/ver/43/projects/NetworkBoot/trunk/src
+END
+interfaces
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/PBB/!svn/ver/43/projects/NetworkBoot/trunk/src/interfaces
+END
+sudoers
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/sudoers
+END
+ntp.conf
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/ntp.conf
+END
+rsyslog.conf
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/rsyslog.conf
+END
+modules
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/modules
+END
+sources.list
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/sources.list
+END
+fstab
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/fstab
+END
+hosts
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/PBB/!svn/ver/43/projects/NetworkBoot/trunk/src/hosts
+END
+live-boot
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/PBB/!svn/ver/42/projects/NetworkBoot/trunk/src/live-boot
+END
